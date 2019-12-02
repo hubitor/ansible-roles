@@ -5,7 +5,6 @@ import shutil
 import glob
 import re
 
-
 for paths in ['./plugins/lookup', './plugins/callback', './plugins/filter']:
 	if not os.path.exists(paths):
 		os.makedirs(paths)
@@ -28,7 +27,7 @@ for paths in ['./roles/*/*_plugins/',
 			'./roles/*/.travis.yml',
 			'./roles/*/Makefile',
 			'./roles/*/.gitignore',
-			'./roles/*/tests/',
+			'./roles/*/molecule/',
 			'./.env.dist',
 			'./.gitsplit.yml',
 			'./.travis.yml',

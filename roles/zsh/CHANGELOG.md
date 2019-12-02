@@ -6,10 +6,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [2.0.0] - 2019-11-21
-### Removed
-- Debian wheezy support
-
 ## [1.0.3] - 2019-10-24
 ### Added
 - Debian buster support
